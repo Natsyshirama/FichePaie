@@ -24,7 +24,7 @@ class kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
 {
-    $schedule->command('app:generate-fiches-paie')->monthlyOn(1, '23:59');
+    $schedule->command('app:generate-fiches-paie')->monthlyOn(28, '23:59');
 }
 
 
